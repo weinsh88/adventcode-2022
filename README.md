@@ -1,6 +1,6 @@
 # adventcode-2022
 
-Solutions to the advent of code 2022. This is my first foray into the TypeScript extension. All imlementations should be treated as suboptimal and do not enforce strict null checks.
+Solutions to the advent of code 2022. This is my first foray into the TypeScript extension. All imlementations should be treated as non-optimal asymptotically. My code does not enforce strict null checks.
 
 ## Installation
 
