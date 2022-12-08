@@ -1,2 +1,6 @@
 # all dist file
 */dist/*
+.js
+
+# vscode setting
+.vscode

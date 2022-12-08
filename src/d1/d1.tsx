@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 export {};
 
-let input = readFileSync('./input.txt', 'utf-8');
+let input = readFileSync('d1-input.txt', 'utf-8');
 
 const groups = input.split('\n\n');
 
