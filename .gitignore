@@ -2,5 +2,6 @@
 */dist/*
 .js
 
-# vscode setting
+# vonfig files
 .vscode
+node_modules/
