@@ -1,5 +1,5 @@
 # all dist file
-*/dist/*
+*/dist/
 .js
 
 # vonfig files
