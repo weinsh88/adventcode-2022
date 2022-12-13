@@ -1,7 +1,10 @@
 # all dist file
-*/dist/
+dist/
 .js
 
-# vonfig files
-.vscode
-node_modules/
+# config and package files
+/.vscode
+node_modules
+package-lock.json
+*test.js
+.eslintcahe
