@@ -19,10 +19,11 @@ for (let i = 0; i < (addToStack[0].length + 1) / 4; i++) {
 const listOfMoves = moves.split('\n');
 
 // For each line in list of moves, if character is a digit
-// 1) add it to list of digits, where 0 pos represents number of moves,
-// 1 pos represents the stack from which to pop the elsement
-// 2 is the dest of the element
-// 2) repeat 1) n times corresponding to n moves
+// 1) add list of digits, where 0 pos represents number of moves,
+// 	  pos1 represents the stack from which to pop the elsement
+// 	  pos2 is the dest of the element
+// 2) Pop num moves top() elements from stack at pos1 and push on pos2
+// 2) repeat 1) and 2) n-times corresponding to n-moves
 
 listOfMoves.forEach((move) => {
 	const pattern = /move (\d+) from (\d+) to (\d+)/;
