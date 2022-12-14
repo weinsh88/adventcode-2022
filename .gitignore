@@ -10,3 +10,6 @@ package-lock.json
 .eslintcahe
 tslint.json
 .prettierrc
+
+# test directory
+__tests__
